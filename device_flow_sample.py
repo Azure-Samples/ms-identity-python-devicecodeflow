@@ -3,7 +3,7 @@ The configuration file would look like this:
 {
     "authority": "https://login.microsoftonline.com/common",
     "client_id": "your_client_id",
-    "scope": ["User.ReadBasic.All"],
+    "scope": ["User.Read"],
     "endpoint": "https://graph.microsoft.com/v1.0/users"
 }
     # You can find the other permission names from this document
