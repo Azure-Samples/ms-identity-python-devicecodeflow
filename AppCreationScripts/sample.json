@@ -17,16 +17,12 @@
       "Name": "python-devicecode",
       "Kind": "Desktop",
       "Audience": "AzureADMultipleOrgs",
+      "IsPublicClient": true,
       "UsesROPCOrIWA": false,
       "RequiredResourcesAccess": [
         {
           "Resource": "Microsoft Graph",
-          "ApplicationPermissions": [ "User.Read.All" ]
-        }
-      ],
-      "ManualSteps": [
-        {
-          "Comment" :  "Navigate to the API permissions page and click on 'Grant admin consent for {tenant}'"
+          "DelegatedPermissions": ["User.Read"]
         }
       ]
     }
