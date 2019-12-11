@@ -73,14 +73,9 @@ Some registration is required for Microsoft to act as an authority for your appl
    - Click the **Add a permission** button and then,
    - Ensure that the **Microsoft APIs** tab is selected
    - In the *Commonly used Microsoft APIs* section, click on **Microsoft Graph**
-   - In the **Delegated permissions** section, ensure that the right permissions are checked: **User.Read**, **User.ReadBasic.All**. Use the search box if necessary.
+   - In the **Delegated permissions** section, ensure that the right permissions are checked: **User.Read**. Use the search box if necessary.
    - Select the **Add permissions** button
 
-1. At this stage permissions are assigned correctly but the client app does not allow interaction.
-   Therefore no consent can be presented via a UI and accepted to use the service app.
-   Click the **Grant/revoke admin consent for {tenant}** button, and then select **Yes** when you are asked if you want to grant consent for the
-   requested permissions for all account in the tenant.
-   You need to be an Azure AD tenant admin to do this.
 
 ### Step 3: Run the sample
 
